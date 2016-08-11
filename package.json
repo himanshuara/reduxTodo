@@ -4,7 +4,9 @@
   "description": "Redux Todo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify":"echo '=> Browserify' && node_modules/.bin/browserify src/assets/js/components/todo.js -o ./src/dist/bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "build": "echo '=> building' && npm run browserify -s "
   },
   "keywords": [
     "Redux"
