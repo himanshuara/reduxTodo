@@ -1,0 +1,56 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.main {
+  width: 50%;
+  margin: auto;
+  background: #eee;
+  padding:15px;
+}
+.main h1 {
+  font-size: 25px;
+  color:#666;
+
+}
+.main input[type=submit]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+}
+.main input[type=text]{
+	padding:10px;
+}
+
+
+.listItem {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top:10px;
+}
+.listItem li {
+  padding: 5px 10px;
+    display: inline-block;
+    font-size: 12px;
+    background: #fff;
+    margin: 5px;
+    color: #666;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.listItem a:nth-child(2){
+	display:inline-block;  
+	width:16px;
+	height:16px;
+	margin-left:3px;
+	vertical-align: middle;
+	cursor: pointer;
+	background:url("../images/remove.png");
+}
